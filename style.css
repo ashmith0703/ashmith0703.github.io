@@ -1,3 +1,13 @@
 h2{
     color:red;
   }
+  p{
+            color: crimson;
+           }
+
+           #p1{
+                 color: gold;
+           }
+           .para{
+                 color:lime;
+           }
