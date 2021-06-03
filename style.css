@@ -1,8 +1,19 @@
+@font-face {
+      font-family: ABC;
+      src: url(Doland-Regular.otf);
+
+}
+@font-face {
+      font-family: ABG;
+      src: url(norwester.otf);
+}
 h2{
     color:red;
+    font-family: ABC;
   }
   p{
             color: crimson;
+            font-family:ABG ; 
            }
 
            #p1{
