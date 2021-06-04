@@ -56,4 +56,12 @@ h2{
           text-align:center ;
           color: darkred;
  }
-    
+    ol{
+          list-style-type:upper-roman;
+          border: 1px dashed;
+    }
+
+    ul{
+          list-style-type:upper-alpha;
+          border: 1px dashed;
+    }
