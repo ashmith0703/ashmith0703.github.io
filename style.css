@@ -18,14 +18,15 @@ h2{
 
            #p1{
                  color: gold;
+                 overflow: scroll;
            }
            .para{
                  color:lime;
            }
            
-           body{
+           /* body{
                   background: rgba(0,0,0,0.2) ;
-           }
+           } */
 
            table{
                  table-layout: auto;
@@ -59,9 +60,56 @@ h2{
     ol{
           list-style-type:upper-roman;
           border: 1px dashed;
+          cursor: pointer;
     }
 
     ul{
           list-style-type:upper-alpha;
           border: 1px dashed;
     }
+    #pop{
+   text-shadow: 10px 10px aqua ;
+   resize: both;
+}
+   #space{
+           letter-spacing: 10px;
+           text-shadow: 10px 10px 5px rgb(243, 242, 239);
+}
+
+   a{
+       text-decoration: none;  
+   }
+
+  a:link {
+      color: lime;
+   }
+
+a:visited{
+           color:red
+}
+
+a:hover{
+         color:rgb(37, 36, 139)
+
+}
+
+a:active{
+
+
+
+           color:yellowgreen
+} 
+ 
+#para2{
+         word-spacing: 50px; 
+}
+
+#div1 {
+    background-image: linear-gradient(red, yellow);
+    filter:opacity(2);
+  }
+  #para3{
+         overflow:scroll;
+         overflow:visible
+         border:solid 1px rgb(252, 13, 124);
+  }
