@@ -82,30 +82,6 @@ h2{
    #space{
            letter-spacing: 10px;
            text-shadow: 10px 10px 5px rgb(243, 242, 239);
-}
-
-   a{
-       text-decoration: none;  
-   }
-
-  a:link {
-      color: lime;
-   }
-
-a:visited{
-           color:red
-}
-
-a:hover{
-         color:rgb(37, 36, 139)
-
-}
-
-a:active{
-
-
-
-           color:yellowgreen
 } 
  
 #para2{
@@ -170,3 +146,50 @@ a:active{
       font-size: 50px;
       color: red;
 }
+
+.nav{
+      background-color: black;
+      color: white;
+      height: 30px;
+      width: 135px;
+      text-decoration: none;
+      float: right;
+      text-align:center;
+     overflow: auto;
+     padding: 10px;
+     margin: 10px;
+}
+
+.nav:hover{
+      color: black;
+      background-color: white;
+}
+ 
+@keyframes change-color{
+      
+      0% {background-color:green;
+      }
+      10% { background-color:greenyellow;
+      }
+
+      15% { background-color:yellow;
+      }
+
+            20% { background-color:orangered;
+            }
+                  30% { background-color:red;
+                  }
+            
+            }
+
+                       .animate{
+                             animation-name: change-color;
+                             animation-duration: 60s;
+                             animation-delay: 60s;
+                            height: 1000px; 
+                            width: 150px;
+                            animation-iteration-count: infinite;
+
+
+
+                       }
