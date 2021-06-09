@@ -184,8 +184,8 @@ h2{
 
                        .animate{
                              animation-name: change-color;
-                             animation-duration: 60s;
-                             animation-delay: 60s;
+                             animation-duration:1s;
+                             animation-delay: 15ms;
                             height: 1000px; 
                             width: 150px;
                             animation-iteration-count: infinite;
