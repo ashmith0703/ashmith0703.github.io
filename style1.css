@@ -1,0 +1,39 @@
+body{
+     background-image: url(3.jpg);
+     background-position: center;
+     background-color:rgb(o,o,o,o.5),(o,o,o,o.5);
+     background-size: cover;
+}
+
+.logo{
+    float:left;
+    padding: 10px;
+}
+
+.lower{
+       background-color: teal; 
+}
+ul{
+    list-style: none;
+}
+
+li{
+    float: right;
+}
+a{
+    text-decoration: none;
+    float: right;
+    padding: 10px;
+    padding-right: 10px;
+    color: black;
+}
+
+div{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+}
+
+h1{
+    word-spacing: 50px;
+}
