@@ -1,3 +1,15 @@
+@font-face {
+    font-family: fontA;
+    src: url(norwester.otf);
+}
+
+@font-face {
+    font-family: fB;
+    src: url(Doland-Regular.otf);
+}
+
+
+
 body{
      background-image: url(3.jpg);
      background-position: center;
@@ -36,5 +48,45 @@ div{
 
 h1{
     word-spacing: 50px;
-    
+}
+
+#image-lower-thrid{
+    background-color: cyan;
+    height: 10px;
+    width: 100%;
+margin-top: 100px;
+
+}
+
+h2{
+    font-size: 45px;
+ width: 150px;
+ color: white;
+ font-family: fontA;
+    background-color: rgba(0, 255, 255, 0.733);
+}
+
+h3{
+    font-size: 45px;
+ width: 150px;
+ color: white;
+ font-family: fB;
+    background-color:gray;
+}
+
+#lower-third{
+    height: 20px;
+    width: 100%;
+ margin:50px;
+}
+
+#icon1 {
+         height: 100px;
+         width: 100px;
+         margin-left: 100px;
+}
+
+p{
+     margin-top: 10px;
+     padding-left: 10px;
 }
