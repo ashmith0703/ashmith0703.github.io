@@ -1,8 +1,13 @@
 :root{
       --primary-color:teal;
-     
+      
 }
 
+@media screen and (prefers-color-scheme: dark) {
+ p {
+   color: #fff;
+ }
+}
 
 @font-face {
       font-family: ABC;
@@ -14,20 +19,20 @@
       src: url(norwester.otf);
 }
 h2{
-    color:red;
+color-scheme: dark;
     font-family: ABC;
   }
   p{
-            color: var(--primary-color );
+      color-scheme: dark;
             font-family:ABG ; 
            }
 
            #p1{
-                 color: gold;
-                 overflow: scroll;
+            color-scheme: dark; 
+                           overflow: scroll;
            }
            .para{
-                 color:lime;
+            color-scheme: dark;
                  width: calc (100%-10px ) ;
            }
            
@@ -45,7 +50,7 @@ h2{
             
             th{
                   border: 1px solid whitesmoke ;
-                  color: cyan;
+                  color-scheme: dark;
                   width: 10px;
             }     
 
@@ -63,7 +68,7 @@ h2{
         border: 1px solid whitesmoke;
           caption-side:bottom;
           text-align:center ;
-          color: darkred;
+          color-scheme: dark;;
  }
     ol{
           list-style-type:upper-roman;
@@ -76,7 +81,7 @@ h2{
           border: 1px dashed;
     }
     #pop{
-   text-shadow: 10px 10px aqua ;
+   text-shadow: 10px 10px ;
    resize: both;
 }
    #space{
@@ -103,15 +108,15 @@ h2{
   }
 
   .red{
-        color: red;
+      color-scheme: dark;
   }
 
   .green{
-         color: rgb(37, 253, 8);
+      color-scheme: dark;
   }
 
   .blue{
-        color: blue;
+        color-scheme: dark;
   }
   
 
@@ -189,4 +194,10 @@ h2{
                             height: 1000px; 
                             width: 150px;
                             animation-iteration-count: infinite;
+                       }
+
+
+                       #caption{
+                        color: lightgray;
+                        font-family: 'Courier New', Courier, monospace;
                        }
